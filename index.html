@@ -96,17 +96,18 @@
     }
     
     @media (max-width: 600px) {
-      header {
-        width: 100%;
-      }
-      nav ul {
-        flex-wrap: wrap;
-      }
-      nav ul li:last-child {
-        flex: 1 1 100%;
-        text-align: center;
-      }
-    }
+  header {
+    width: 100%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav ul li:nth-last-child(2),
+  nav ul li:last-child {
+    flex: 1 1 50%;
+    text-align: center;
+  }
+}
   </style>
 </head>
 <body id="home-page">
